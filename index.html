@@ -8,6 +8,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Floating Particles for Background Animation -->
+    <div class="floating-particle"></div>
+    <div class="floating-particle"></div>
+    <div class="floating-particle"></div>
+    <div class="floating-particle"></div>
+    <div class="floating-particle"></div>
+
     <!-- Header -->
     <header class="header">
         <div class="header-top">
@@ -36,88 +46,82 @@
                             <li class="nav-item has-dropdown">
                                 <a href="#" class="nav-link">About Us</a>
                                 <div class="dropdown-menu">
+                                    <div class="dropdown-header">
+                                        <h4>Company Overview</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    </div>
                                     <ul>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Corporate Overview</a></li>
-                                        <li><a href="#">Leadership</a></li>
-                                        <li><a href="#">Our Brand</a></li>
-                                        <li><a href="#">Sustainability</a></li>
-                                        <li><a href="#">Recognition</a></li>
-                                        <li><a href="#">Customer Speak</a></li>
-                                        <li><a href="#">Partners Ecosystem</a></li>
-                                        <li><a href="#">Portfolio Companies</a></li>
+                                        <li><a href="#"><i class="fas fa-building"></i>About Us</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-line"></i>Corporate Overview</a></li>
+                                        <li><a href="#"><i class="fas fa-users"></i>Leadership</a></li>
+                                        <li><a href="#"><i class="fas fa-star"></i>Our Brand</a></li>
+                                        <li><a href="#"><i class="fas fa-leaf"></i>Sustainability</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-item has-dropdown">
                                 <a href="#" class="nav-link">Capabilities</a>
                                 <div class="dropdown-menu">
+                                    <div class="dropdown-header">
+                                        <h4>Our Services</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    </div>
                                     <ul>
-                                        <li><a href="#">Our Services</a></li>
-                                        <li><a href="#">Consulting</a></li>
-                                        <li><a href="#">Application Services</a></li>
-                                        <li><a href="#">Cloud & Infrastructure Services</a></li>
-                                        <li><a href="#">Engineering Services</a></li>
-                                        <li><a href="#">Network Services</a></li>
-                                        <li><a href="#">Data Analytics</a></li>
-                                        <li><a href="#">Artificial Intelligence</a></li>
-                                        <li><a href="#">Digital Enterprise Applications</a></li>
-                                        <li><a href="#">Business Process Services</a></li>
-                                        <li><a href="#">Experience Services</a></li>
-                                        <li><a href="#">Next Gen Services</a></li>
-                                        <li><a href="#">Sustainability Services</a></li>
-                                        <li><a href="#">Products & Platforms</a></li>
-                                        <li><a href="#">Innovation at Scale™</a></li>
-                                        <li><a href="#">Innovation, R&D - Makers Lab</a></li>
+                                        <li><a href="#"><i class="fas fa-cogs"></i>Our Services</a></li>
+                                        <li><a href="#"><i class="fas fa-lightbulb"></i>Consulting</a></li>
+                                        <li><a href="#"><i class="fas fa-mobile-alt"></i>Application Services</a></li>
+                                        <li><a href="#"><i class="fas fa-cloud"></i>Cloud & Infrastructure</a></li>
+                                        <li><a href="#"><i class="fas fa-robot"></i>Artificial Intelligence</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-item has-dropdown">
                                 <a href="#" class="nav-link">Industries</a>
                                 <div class="dropdown-menu">
+                                    <div class="dropdown-header">
+                                        <h4>Sector Expertise</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    </div>
                                     <ul>
-                                        <li><a href="#">Banking & Financial Services</a></li>
-                                        <li><a href="#">Communications</a></li>
-                                        <li><a href="#">Energy & Utilities</a></li>
-                                        <li><a href="#">Healthcare & Life Sciences</a></li>
-                                        <li><a href="#">Hi Tech</a></li>
-                                        <li><a href="#">Insurance</a></li>
-                                        <li><a href="#">Manufacturing</a></li>
-                                        <li><a href="#">Media & Entertainment</a></li>
-                                        <li><a href="#">Oil & Gas</a></li>
-                                        <li><a href="#">Private Equity</a></li>
-                                        <li><a href="#">Professional Services</a></li>
-                                        <li><a href="#">Retail & Consumer Goods</a></li>
-                                        <li><a href="#">Travel, Transportation, Logistics & Hospitality</a></li>
+                                        <li><a href="#"><i class="fas fa-university"></i>Banking & Finance</a></li>
+                                        <li><a href="#"><i class="fas fa-heartbeat"></i>Healthcare</a></li>
+                                        <li><a href="#"><i class="fas fa-industry"></i>Manufacturing</a></li>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i>Retail</a></li>
+                                        <li><a href="#"><i class="fas fa-bolt"></i>Energy & Utilities</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-item has-dropdown">
                                 <a href="#" class="nav-link">Insights</a>
                                 <div class="dropdown-menu">
+                                    <div class="dropdown-header">
+                                        <h4>Knowledge Hub</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    </div>
                                     <ul>
-                                        <li><a href="#">Case Studies</a></li>
-                                        <li><a href="#">Views</a></li>
-                                        <li><a href="#">Analyst Insights</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#"><i class="fas fa-newspaper"></i>Latest News</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-bar"></i>Research Reports</a></li>
+                                        <li><a href="#"><i class="fas fa-lightbulb"></i>Innovation Blog</a></li>
+                                        <li><a href="#"><i class="fas fa-video"></i>Webinars</a></li>
+                                        <li><a href="#"><i class="fas fa-book"></i>Case Studies</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-item has-dropdown">
                                 <a href="#" class="nav-link">Careers</a>
                                 <div class="dropdown-menu">
+                                    <div class="dropdown-header">
+                                        <h4>Join Our Team</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    </div>
                                     <ul>
-                                        <li><a href="#">Why Octalpha</a></li>
-                                        <li><a href="#">The Octalpha Way</a></li>
-                                        <li><a href="#">Diversity & Inclusion</a></li>
-                                        <li><a href="#">Join Us</a></li>
-                                        <li><a href="#">Alumni</a></li>
+                                        <li><a href="#"><i class="fas fa-search"></i>Find Jobs</a></li>
+                                        <li><a href="#"><i class="fas fa-graduation-cap"></i>Learning & Development</a></li>
+                                        <li><a href="#"><i class="fas fa-users"></i>Culture & Values</a></li>
+                                        <li><a href="#"><i class="fas fa-handshake"></i>Benefits</a></li>
+                                        <li><a href="#"><i class="fas fa-globe"></i>Global Opportunities</a></li>
                                     </ul>
                                 </div>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -141,7 +145,8 @@
                 <h1 class="hero-title">Innovation at Scale™</h1>
                 <p class="hero-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="hero-buttons">
-                    <a href="#" class="btn btn-primary">Know More</a>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -152,36 +157,22 @@
                 <div class="carousel-slide active">
                     <div class="slide-content">
                         <h3>The Octalpha Promise</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-secondary">Know More</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                        <a href="#" class="btn btn-secondary">Discover More</a>
                     </div>
                 </div>
                 <div class="carousel-slide">
                     <div class="slide-content">
-                        <h3>Revolutionary AI Solutions</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                        <a href="#" class="btn btn-secondary">Know More</a>
+                        <h3>Digital Transformation</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-secondary">Explore Solutions</a>
                     </div>
                 </div>
                 <div class="carousel-slide">
                     <div class="slide-content">
-                        <h3>Global Recognition</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-secondary">Know More</a>
-                    </div>
-                </div>
-                <div class="carousel-slide">
-                    <div class="slide-content">
-                        <h3>Next-Gen Technology</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                        <a href="#" class="btn btn-secondary">Know More</a>
-                    </div>
-                </div>
-                <div class="carousel-slide">
-                    <div class="slide-content">
-                        <h3>Sustainability Leadership</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-secondary">Know More</a>
+                        <h3>Innovation Hub</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <a href="#" class="btn btn-secondary">Join Innovation</a>
                     </div>
                 </div>
             </div>
@@ -195,8 +186,6 @@
                 <span class="indicator active" data-slide="0"></span>
                 <span class="indicator" data-slide="1"></span>
                 <span class="indicator" data-slide="2"></span>
-                <span class="indicator" data-slide="3"></span>
-                <span class="indicator" data-slide="4"></span>
             </div>
         </div>
     </section>
@@ -236,50 +225,6 @@
                     </div>
                     <h3>Data Analytics</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research Report Section -->
-    <section class="research-report">
-        <div class="container">
-            <div class="research-content">
-                <div class="research-text">
-                    <h2>Research Report</h2>
-                    <h3>Building the Store of the Future</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <a href="#" class="btn btn-primary">Download Report</a>
-                </div>
-                <div class="research-image">
-                    <img src="https://via.placeholder.com/400x300/0066cc/ffffff?text=Research+Report" alt="Research Report">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Scale at Speed Section -->
-    <section class="scale-speed">
-        <div class="container">
-            <div class="scale-content">
-                <h2>Scale at Speed™</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="scale-features">
-                    <div class="scale-feature">
-                        <i class="fas fa-rocket"></i>
-                        <h4>Rapid Deployment</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="scale-feature">
-                        <i class="fas fa-expand-arrows-alt"></i>
-                        <h4>Scalable Architecture</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="scale-feature">
-                        <i class="fas fa-shield-alt"></i>
-                        <h4>Enterprise Security</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -370,150 +315,11 @@
         </div>
     </section>
 
-    <!-- Sustainability Section -->
-    <section class="sustainability">
-        <div class="container">
-            <div class="sustainability-content">
-                <div class="sustainability-text">
-                    <h2>Sustainability</h2>
-                    <h3>Building a Better Future</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <a href="#" class="btn btn-secondary">Learn More</a>
-                </div>
-                <div class="sustainability-image">
-                    <img src="https://via.placeholder.com/400x300/00aa66/ffffff?text=Sustainability" alt="Sustainability">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Case Studies Section -->
-    <section class="case-studies">
-        <div class="container">
-            <div class="section-header">
-                <h2>Success Stories</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="case-studies-carousel">
-                <div class="case-study-card">
-                    <div class="case-study-image">
-                        <img src="https://via.placeholder.com/350x250/0066cc/ffffff?text=Case+Study+1" alt="Case Study 1">
-                    </div>
-                    <div class="case-study-content">
-                        <h3>Digital Transformation Success</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                        <a href="#" class="read-more">Read Case Study</a>
-                    </div>
-                </div>
-                <div class="case-study-card">
-                    <div class="case-study-image">
-                        <img src="https://via.placeholder.com/350x250/0066cc/ffffff?text=Case+Study+2" alt="Case Study 2">
-                    </div>
-                    <div class="case-study-content">
-                        <h3>AI Implementation</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                        <a href="#" class="read-more">Read Case Study</a>
-                    </div>
-                </div>
-                <div class="case-study-card">
-                    <div class="case-study-image">
-                        <img src="https://via.placeholder.com/350x250/0066cc/ffffff?text=Case+Study+3" alt="Case Study 3">
-                    </div>
-                    <div class="case-study-content">
-                        <h3>Cloud Migration</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                        <a href="#" class="read-more">Read Case Study</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Octalpha Rise Section -->
-    <section class="octalpha-rise">
-        <div class="container">
-            <div class="rise-content">
-                <h2>Octalpha Rise</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="rise-features">
-                    <div class="rise-feature">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h4>Learning Programs</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="rise-feature">
-                        <i class="fas fa-users"></i>
-                        <h4>Mentorship</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="rise-feature">
-                        <i class="fas fa-globe"></i>
-                        <h4>Global Network</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <a href="#" class="btn btn-primary">Join Octalpha Rise</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Explore More Section -->
-    <section class="explore-more">
-        <div class="container">
-            <div class="explore-content">
-                <h2>Explore More</h2>
-                <div class="explore-grid">
-                    <div class="explore-card">
-                        <div class="explore-icon">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                        <h3>Innovation Hub</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="explore-link">Explore</a>
-                    </div>
-                    <div class="explore-card">
-                        <div class="explore-icon">
-                            <i class="fas fa-book"></i>
-                        </div>
-                        <h3>Resource Center</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="explore-link">Explore</a>
-                    </div>
-                    <div class="explore-card">
-                        <div class="explore-icon">
-                            <i class="fas fa-calendar"></i>
-                        </div>
-                        <h3>Events</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="explore-link">Explore</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Careers Section -->
-    <section class="careers">
-        <div class="container">
-            <div class="careers-content">
-                <div class="careers-text">
-                    <h2>Join Our Team</h2>
-                    <h3>Build the Future with Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <a href="#" class="btn btn-primary">View Openings</a>
-                </div>
-                <div class="careers-image">
-                    <img src="https://via.placeholder.com/400x300/0066cc/ffffff?text=Careers" alt="Careers">
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section class="contact">
         <div class="container">
             <div class="section-header">
-                <h2>Get in Touch</h2>
+                <h2>Get In Touch</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="contact-content">
@@ -521,42 +327,37 @@
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>Address</h4>
-                            <p>123 Innovation Drive<br>Tech City, TC 12345</p>
+                            <h4>Our Location</h4>
+                            <p>Lorem ipsum dolor sit amet<br>Consectetur adipiscing elit</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Phone</h4>
-                            <p>+1 (555) 123-4567</p>
+                            <p>Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>info@octalpha.com</p>
+                            <p>Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Full Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email Address" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Company">
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
@@ -566,54 +367,39 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="https://via.placeholder.com/150x45/0066cc/ffffff?text=Octalpha" alt="Octalpha">
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
+                    <h3>Octalpha</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Company</h4>
+                    <h3>Quick Links</h3>
                     <ul>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Industries</a></li>
                         <li><a href="#">Careers</a></li>
-                        <li><a href="#">News</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Services</h4>
+                    <h3>Resources</h3>
                     <ul>
-                        <li><a href="#">Consulting</a></li>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Digital</a></li>
-                        <li><a href="#">Innovation</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="#">Insights</a></li>
+                        <li><a href="#">Blog</a></li>
                         <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Research</a></li>
                         <li><a href="#">Events</a></li>
-                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Accessibility</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2024 Octalpha. All rights reserved.</p>
-                    <div class="footer-links">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                        <a href="#">Cookie Policy</a>
-                    </div>
-                </div>
+                <p>&copy; 2024 Octalpha. All rights reserved. | Innovation at Scale™</p>
             </div>
         </div>
     </footer>
@@ -622,10 +408,10 @@
     <div class="cookie-consent" id="cookieConsent">
         <div class="container">
             <div class="cookie-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="cookie-buttons">
-                    <button class="btn btn-secondary" onclick="acceptCookies()">Accept</button>
-                    <button class="btn btn-outline" onclick="declineCookies()">Decline</button>
+                    <button class="btn btn-primary" onclick="acceptCookies()">Accept</button>
+                    <button class="btn btn-secondary" onclick="declineCookies()">Decline</button>
                 </div>
             </div>
         </div>
